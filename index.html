@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>九宮格拼圖遊戲</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+
 <body>
+    <!-- <h1>九宮格拼圖遊戲</h1> -->
     <h1>九宮格拼圖遊戲</h1>
     <input type="file" id="upload" accept="image/*">
+    <br><br>
+    <a id="RandomButton" class="btn" data-text="隨機圖片載入">
+        <!-- <button id="RandomButton" class="btn">隨機圖片載入 -->
+        <span>按</span>
+        <span>吧</span>
+        <span> </span>
+        <span>按</span>
+        <span>吧</span>
+        <span> </span>
+        <!-- </button> -->
+    </a>
+    <br><br>
     <div id="puzzle-container"></div>
     <script src="script.js"></script>
 </body>
+
 </html>
